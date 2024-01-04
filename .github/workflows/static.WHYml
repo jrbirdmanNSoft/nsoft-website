@@ -41,7 +41,7 @@ jobs:
       - name: Deploy to GitHub Pages
             uses: SamKirkland/FTP-Deploy-Action@4.3.3
       with:
-        server: ftp.epworthpark.org
+        server: ftp.nsoft-development.com
         username: ddiehl@nsoft-development.com    
         password: ${{ secrets.FTP_PASSWORD }}
         protocol: ftps
